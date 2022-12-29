@@ -25,6 +25,7 @@
     fieldset > p {
         font-size: 20px;
         padding: 20px 10px;
+        font-style: normal;
     }
 
     label {
@@ -37,6 +38,10 @@
         border: 2px solid black;
         border-radius: 5px;
         font-size: 14px;
+    }
+
+    input.enviar:hover {
+        background-color: rgb(143, 143, 143);
     }
 }
     

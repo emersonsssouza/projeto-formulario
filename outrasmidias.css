@@ -1,7 +1,40 @@
-@media (min-width: 641px) and (orientation: landscape){
+@media (min-width: 641px) and (max-width: 1024px) and (orientation: landscape){
   
     body {
         background-color: red;
+    }
+
+    main {
+        height: 1100px;
+        width: 600px;
+    }
+
+    main > img {
+        width: 250px;
+    }
+
+    form {
+        width: 500px;
+        margin: auto;
+    }
+
+    legend {
+        font-size: 30px;
+    }
+
+    fieldset > p {
+        font-size: 30px;
+        padding: 10px;
+        font-style: normal;
+    }
+
+    input {
+        padding: 5px;
+        font-size: 15px;
+        border: 2px solid black;
+        border-radius: 5px;
+        display: inline-block;
+        
     }
     
 }
