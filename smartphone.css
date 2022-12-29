@@ -15,6 +15,7 @@
 
     form {
         width: 300px;
+        margin-left: -10px;
     }
 
     legend {
