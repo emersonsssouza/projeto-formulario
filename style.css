@@ -7,7 +7,11 @@
 }
 
 body{
-    background-color: aqua;
+    background-image: url(imagens-back/pexels-pixabay-247937_compressed.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     margin: auto;
     width: 100vw;
 }
@@ -21,7 +25,7 @@ main {
     top: 5%;
     left: 50%;
     transform: translate(-50%);
-    height: 900px;
+    height: 1200px;
     padding: 20px;
     border: 1px solid black;
     border-radius: 10px;
@@ -45,12 +49,12 @@ form label {
 
 form p {
     padding: 15px;
-    font-size: 15px;
-    font-style: italic;
+    font-size: 25px;
+    font-style: normal;
 }
 
 fieldset {
-    padding: 20px;
+    padding: 25px;
     margin: auto;
     border: 3px solid black ;
     border-radius: 10px;
@@ -59,12 +63,20 @@ fieldset {
 
 legend {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 label.medico {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
+}
+
+input {
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 input.enviar {
@@ -82,3 +94,4 @@ input.enviar:hover {
     background-color: red;
     border: red;
 }
+
