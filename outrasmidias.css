@@ -42,8 +42,8 @@
 /*Laptop*/
 @media (min-width: 732px) and (max-width:1024px) and (orientation: landscape) {
     body{
-        background-image: url(imagens-back/cachorro.jpeg);
-        background-position: center;
+        background-image: url(imagens-back/pexels-pixabay-247937_compressed.jpg);
+        background-position:center;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;   
