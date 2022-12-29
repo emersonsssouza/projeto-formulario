@@ -1,4 +1,4 @@
-@media (min-width: 641px) and (max-width: 1024px) and (orientation: landscape){
+@media (min-width: 641px) and (orientation: landscape){
   
     body {
         background-color: red;
