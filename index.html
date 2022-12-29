@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="smartphone.css" media="screen" orientation(portrait) >
 </head>
 <body>
     <main>
@@ -18,26 +19,35 @@
                 <p>
                     <label for="inome">Nome</label>
                     <input type="text" name="nome" id="inome" required maxlength="20" placeholder="Digite seu nome">
-
-                     <label for="isobrenome">Sobrenome</label>
-                     <input type="text" name="sobrenome" id="isobrenome" required maxlength="30" placeholder="Digite seu sobrenome">
                 </p>
+
+                <p>
+                    <label for="isobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="isobrenome" required maxlength="30" placeholder="Digite seu sobrenome">
+                </p>
+                
                 
                 <p>
                     <label for="idade">Idade</label>
                     <input type="number" name="idade" id="idade" required placeholder="Informe a sua idade">
- 
-                     <label for="iendereço">Endereço</label>
-                     <input type="text" name="Endereço" id="iendereço" required maxlength="50" placeholder="Informe seu endereço">
                 </p>
+
+                <P>
+                    <label for="iendereço">Endereço</label>
+                    <input type="text" name="Endereço" id="iendereço" required maxlength="50" placeholder="Informe seu endereço">
+                </P>
+               
 
                 <p>
                     <label for="iemail">Email</label>
                     <input type="email" name="email" id="iemail" required maxlength="60" placeholder="Digite seu E-mail">
-
-                     <label for="itelefone">Telefone</label>
-                     <input type="tel" name="Telefone" id="itelefone" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxxx-xxxx">
                 </p>
+                     
+                <p>
+                    <label for="itelefone">Telefone</label>
+                    <input type="tel" name="Telefone" id="itelefone" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxxx-xxxx">
+                </p>
+               
             </fieldset>
 
             <fieldset>
@@ -45,18 +55,23 @@
                 <p>
                     <label for="iraça">Raça</label>
                     <input type="text" name="Raça" id="iraça" required maxlength="25" placeholder="Informe a raça do animal">
-
-                     <label for="icor">Cor</label>
-                     <input type="color" name="cor" id="icor">
                 </p>
 
-                    <p>
-                        <label for="iiidade">Idade</label>
-                        <input type="date" name="idade" id="iiidade">
+                <p>
+                    <label for="icor">Cor</label>
+                    <input type="color" name="cor" id="icor">
+                </p>
 
-                         <label for="isexo">sexo</label>
-                         <input type="text" name="sexo" id="isexo" required maxlength="10" placeholder="Digite o sexo do animal">
-                    </p>
+                <p>
+                    <label for="iiidade">Idade</label>
+                    <input type="date" name="idade" id="iiidade">
+                </p>
+
+                <p>
+                    <label for="isexo">sexo</label>
+                    <input type="text" name="sexo" id="isexo" required maxlength="10" placeholder="Digite o sexo do animal">
+                </p>
+                    
             </fieldset>
 
              <input class="enviar" type="submit" value="Enviar"> 

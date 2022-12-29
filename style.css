@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #38C1CF;
+    background-color: aqua;
     margin: auto;
     width: 100vw;
 }
@@ -25,7 +25,7 @@ main {
     padding: 20px;
     border: 1px solid black;
     border-radius: 10px;
-    box-shadow: 3px 3px 8px black;
+    box-shadow: 8px 8px 8px black;
 }
 
 main img {
