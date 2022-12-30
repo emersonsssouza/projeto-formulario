@@ -7,8 +7,8 @@
 }
 
 body{
-    background-image: url(imagens-back/pexels-pixabay-247937_compressed.jpg);
-    background-position: left top;
+    background-image: url(iloveimg-compressed/pexels-juris-freidenfelds-2013662.jpg);
+    background-position: left left;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -77,13 +77,14 @@ input {
     border: 2px solid black;
     border-radius: 5px;
     display: inline-block;
+    background-color: transparent;
 }
 
 input.enviar {
     display: flex;
     margin: auto;
-    margin-top: 70px;
-    padding: 10px;
+    margin-top: 20px;
+    padding: 10px 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     border: 2px solid black;
@@ -94,4 +95,171 @@ input.enviar:hover {
     background-color: red;
     border: red;
 }
+
+/*Media querie para tela em pe*/
+/*
+
+*/
+
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    body {
+        background-image: url(iloveimg-compressed/pexels-pixabay-247522.jpg);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    main {
+        width: 340px;
+        height: 1550px;
+        background-color: transparent;
+    }
+
+    form {
+        width: 300px;
+        margin-left: -10px;
+    }
+
+    legend {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    fieldset > p {
+        font-size: 20px;
+        padding: 20px 10px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    label {
+        margin: -10px;
+    }
+
+    ::placeholder {
+        color: black;
+        font-size: 17px;
+    }
+
+    input {
+        margin-top: 10px;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    input.enviar:hover {
+        background-color: rgb(143, 143, 143);
+    }
+}
+  
+
+/*
+Tela paisagem 
+*/
+
+@media (min-width: 481px) and (max-width:768px) {
+  
+    body {
+        background-image: url(iloveimg-compressed/pexels-pixabay-247522.jpg);
+    }
+
+    main {
+        background-color: transparent;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        height: 1450px;
+        width: 390px;
+    }
+
+    form {
+        width: 300px;
+        margin: auto;
+        text-align: center;
+    }
+
+    legend {
+        font-size: 30px;
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+
+    fieldset > p {
+        font-size: 30px;
+        padding: 10px;
+        font-style: normal;
+    }
+
+    ::placeholder {
+        color: black;
+    }
+
+    input {
+        padding: 5px;
+        font-size: 15px;
+        border: 2px solid;
+        border-color: black;
+        border-radius: 5px;
+        display: inline-block;
+        background-color: rgba(150, 148, 148, 0.26);
+        color: black;
+    }
+
+
+    input.enviar:hover {
+        background-color: #7F5D39;
+    }
+}
+
+/*Laptop*/
+@media (min-width: 769px) and (max-width:1024px) {
+    body{
+        background-image: url(iloveimg-compressed/pexels-brett-sayles-1322182.jpg);
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;   
+    }
+
+    main {
+        height: 1250px ;
+        width: 700px;
+    }
+
+    main > img {
+        width: 400px;
+    }
+
+    form {
+        width: 600px;
+        margin: auto;
+    }
+
+    legend {
+        font-size: 35px;
+    }
+
+    fieldset > p {
+        font-style: normal;
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    input {
+        padding: 10px ;
+        font-size: 20px ;
+        display: inline-block;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+    input.enviar:hover {
+        background-color: green;
+    }
+}
+
+
 
