@@ -17,7 +17,7 @@ body{
 }
 
 main {
-    background-color: white;
+    background-color: transparent;
     margin: auto;
     margin-bottom: 40px;
     width: 700px;
@@ -30,11 +30,6 @@ main {
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 8px 8px 8px black;
-}
-
-main img {
-    display: flex;
-    margin: auto;
 }
 
 form {
@@ -172,8 +167,6 @@ Tela paisagem
 
     main {
         background-color: transparent;
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
         height: 1450px;
         width: 390px;
     }
