@@ -33,6 +33,7 @@ main {
 }
 
 form {
+    background-color: transparent;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     margin: auto;
@@ -223,6 +224,7 @@ Tela paisagem
     main {
         height: 1250px ;
         width: 700px;
+        background-color: transparent;
     }
 
     main > img {
