@@ -1,6 +1,10 @@
 /*Aparelho deitado */
 
 @media screen and (orientation: landscape) {
+    main.principal {
+        background-color: transparent;
+    }
+
     main {
         background-color: transparent;
     }
