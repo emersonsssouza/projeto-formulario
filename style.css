@@ -105,7 +105,7 @@ input.enviar:hover {
 
     body {
         background-image: url(iloveimg-compressed/pexels-pixabay-247522.jpg);
-        background-position: bottom right;
+        background-position: right , bottom;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -164,7 +164,10 @@ Tela paisagem
 @media (min-width: 481px) and (max-width:768px) {
   
     body {
-        background-image: url(iloveimg-compressed/pexels-pixabay-247522.jpg);
+        background-image: url(iloveimg-compressed/pexels-brett-sayles-1322182.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     main {
@@ -215,9 +218,9 @@ Tela paisagem
 }
 
 /*Laptop*/
-@media (min-width: 769px) and (max-width:1024px) {
+@media (min-width: 1025px) and (max-width:1200px) {
     body{
-        background-image: url(iloveimg-compressed/pexels-brett-sayles-1322182.jpg);
+        background-image: url(iloveimg-compressed/pexels-juris-freidenfelds-2013662.jpg);
         background-position:center;
         background-size: cover;
         background-repeat: no-repeat;
