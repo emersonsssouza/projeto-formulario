@@ -108,6 +108,7 @@ input.enviar:hover {
 
     main {
         width: auto;
+        margin: auto;
         height: 1550px;
         background-color: transparent;
     }
