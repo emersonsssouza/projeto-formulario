@@ -107,7 +107,7 @@ input.enviar:hover {
     }
 
     main {
-        width: 340px;
+        width: auto;
         height: 1550px;
         background-color: transparent;
     }
