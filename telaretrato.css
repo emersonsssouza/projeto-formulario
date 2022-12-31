@@ -1,7 +1,14 @@
 /* Aparelho em pe */
 @media screen and (orientation: portrait) {
     
+    main.principal {
+        background-color: transparent;
+        border: none;
+    }
 
+    main {
+        background-color: transparent;
+    }
 ::placeholder {
     color: black;
 }
