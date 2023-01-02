@@ -101,7 +101,7 @@ input.enviar:hover {
 
     body {
         background-image: url(iloveimg-compressed/pexels-pixabay-247522.jpg);
-        background-position: right , center;
+        background-position: right bottom;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -126,7 +126,12 @@ input.enviar:hover {
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    fieldset {
+        border-color: white;
+    }
+
     fieldset > p {
+        color: white;
         font-size: 20px;
         padding: 20px 10px;
         font-style: normal;
@@ -134,10 +139,12 @@ input.enviar:hover {
     }
 
     label {
+        color: white;
         margin: -10px;
     }
 
     ::placeholder {
+        background-color: rgba(255, 255, 255, 0.378);
         color: black;
         font-size: 17px;
     }
@@ -148,10 +155,13 @@ input.enviar:hover {
         border: 2px solid black;
         border-radius: 5px;
         font-size: 14px;
+        color: white;
+        border-color: white;
     }
 
     input.enviar:hover {
         background-color: rgb(143, 143, 143);
+
     }
 }
   
@@ -209,7 +219,8 @@ Tela paisagem
 
 
     input.enviar:hover {
-        background-color: #7F5D39;
+        background-color: #4cdd04;
+        color: white;
     }
 }
 
